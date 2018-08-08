@@ -76,7 +76,7 @@ fi
 latestCommitIdFileUrl="https://blackducksoftware.github.io/hub-docker-inspector/latest-commit-id.txt"
 localCommitIdFile="${DOCKER_INSPECTOR_JAR_DIR}/hub-docker-inspector-latest-commit-id.txt"
 currentVersionCommitId=""
-version="6.0.4"
+version="@VERSION@"
 encodingSetting="-Dfile.encoding=UTF-8"
 userSpecifiedJarPath=""
 jarPathSpecified=false
